@@ -14,6 +14,12 @@
 		4E13A6E61A7699C8003199F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E13A6E51A7699C8003199F8 /* Images.xcassets */; };
 		4E13A6E91A7699C8003199F8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E13A6E71A7699C8003199F8 /* LaunchScreen.xib */; };
 		4E13A6F51A7699C8003199F8 /* Pirate_AdvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E13A6F41A7699C8003199F8 /* Pirate_AdvTests.m */; };
+		4E166C191A7B4C56008E57F7 /* CCBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E166C181A7B4C56008E57F7 /* CCBoss.m */; };
+		4EA7E4561A79E822001AD7D1 /* CCWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7E4551A79E822001AD7D1 /* CCWeapon.m */; };
+		4EA7E4591A79E89D001AD7D1 /* CCArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7E4581A79E89D001AD7D1 /* CCArmor.m */; };
+		4EA7E45C1A79EBCB001AD7D1 /* CCCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA7E45B1A79EBCB001AD7D1 /* CCCharacter.m */; };
+		4EE26E0D1A7788BE00FF6238 /* CCTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE26E0C1A7788BE00FF6238 /* CCTile.m */; };
+		4EFDDFBE1A78A22D00967317 /* CCFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFDDFBD1A78A22D00967317 /* CCFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		4E13A6EE1A7699C8003199F8 /* Pirate AdvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pirate AdvTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E13A6F31A7699C8003199F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E13A6F41A7699C8003199F8 /* Pirate_AdvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pirate_AdvTests.m; sourceTree = "<group>"; };
+		4E166C171A7B4C56008E57F7 /* CCBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBoss.h; sourceTree = "<group>"; };
+		4E166C181A7B4C56008E57F7 /* CCBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBoss.m; sourceTree = "<group>"; };
+		4EA7E4541A79E822001AD7D1 /* CCWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCWeapon.h; sourceTree = "<group>"; };
+		4EA7E4551A79E822001AD7D1 /* CCWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCWeapon.m; sourceTree = "<group>"; };
+		4EA7E4571A79E89D001AD7D1 /* CCArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCArmor.h; sourceTree = "<group>"; };
+		4EA7E4581A79E89D001AD7D1 /* CCArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCArmor.m; sourceTree = "<group>"; };
+		4EA7E45A1A79EBCB001AD7D1 /* CCCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCCharacter.h; sourceTree = "<group>"; };
+		4EA7E45B1A79EBCB001AD7D1 /* CCCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCharacter.m; sourceTree = "<group>"; };
+		4EE26E0B1A7788BE00FF6238 /* CCTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTile.h; sourceTree = "<group>"; };
+		4EE26E0C1A7788BE00FF6238 /* CCTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTile.m; sourceTree = "<group>"; };
+		4EFDDFBC1A78A22D00967317 /* CCFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCFactory.h; sourceTree = "<group>"; };
+		4EFDDFBD1A78A22D00967317 /* CCFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +103,7 @@
 				4E13A6DD1A7699C8003199F8 /* AppDelegate.m */,
 				4E13A6DF1A7699C8003199F8 /* ViewController.h */,
 				4E13A6E01A7699C8003199F8 /* ViewController.m */,
+				4EE26E0A1A77889E00FF6238 /* Model */,
 				4E13A6E21A7699C8003199F8 /* Main.storyboard */,
 				4E13A6E51A7699C8003199F8 /* Images.xcassets */,
 				4E13A6E71A7699C8003199F8 /* LaunchScreen.xib */,
@@ -117,6 +136,33 @@
 				4E13A6F31A7699C8003199F8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EE26E0A1A77889E00FF6238 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4EE26E0E1A77DBDE00FF6238 /* CCFactory */,
+				4EE26E0B1A7788BE00FF6238 /* CCTile.h */,
+				4EE26E0C1A7788BE00FF6238 /* CCTile.m */,
+				4EA7E4541A79E822001AD7D1 /* CCWeapon.h */,
+				4EA7E4551A79E822001AD7D1 /* CCWeapon.m */,
+				4EA7E4571A79E89D001AD7D1 /* CCArmor.h */,
+				4EA7E4581A79E89D001AD7D1 /* CCArmor.m */,
+				4EA7E45A1A79EBCB001AD7D1 /* CCCharacter.h */,
+				4EA7E45B1A79EBCB001AD7D1 /* CCCharacter.m */,
+				4E166C171A7B4C56008E57F7 /* CCBoss.h */,
+				4E166C181A7B4C56008E57F7 /* CCBoss.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4EE26E0E1A77DBDE00FF6238 /* CCFactory */ = {
+			isa = PBXGroup;
+			children = (
+				4EFDDFBC1A78A22D00967317 /* CCFactory.h */,
+				4EFDDFBD1A78A22D00967317 /* CCFactory.m */,
+			);
+			name = CCFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +266,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E13A6E11A7699C8003199F8 /* ViewController.m in Sources */,
+				4EFDDFBE1A78A22D00967317 /* CCFactory.m in Sources */,
 				4E13A6DE1A7699C8003199F8 /* AppDelegate.m in Sources */,
+				4EA7E45C1A79EBCB001AD7D1 /* CCCharacter.m in Sources */,
 				4E13A6DB1A7699C8003199F8 /* main.m in Sources */,
+				4EE26E0D1A7788BE00FF6238 /* CCTile.m in Sources */,
+				4EA7E4591A79E89D001AD7D1 /* CCArmor.m in Sources */,
+				4EA7E4561A79E822001AD7D1 /* CCWeapon.m in Sources */,
+				4E166C191A7B4C56008E57F7 /* CCBoss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +464,7 @@
 				4E13A6FA1A7699C8003199F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E13A6FB1A7699C8003199F8 /* Build configuration list for PBXNativeTarget "Pirate AdvTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +473,7 @@
 				4E13A6FD1A7699C8003199F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
